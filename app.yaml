@@ -1,0 +1,13 @@
+id: nb_events
+name: NB Events
+version: 1.0.0
+description: Aplicație pentru gestionare evenimente și încărcare fișiere
+author: Numele tău
+homepage: https://github.com/FubIZ/nb_events_zimaos
+arch: amd64
+icon: https://raw.githubusercontent.com/FubIZ/nb_events_zimaos/main/icon.png
+docker:
+  image: fubiz/nb_events:latest
+  port: 8080
+  volumes:
+    - /DATA/AppData/NB_Events/data:/app/data
